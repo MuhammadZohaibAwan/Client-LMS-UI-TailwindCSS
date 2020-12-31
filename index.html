@@ -1,0 +1,1000 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="/path/to/tailwind.css" rel="stylesheet" />
+    <link
+      href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/da34c1ccea.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+
+  <body>
+    <div class="mainSection flex flex-row h-screen">
+      <!--wrapper for complete code -->
+
+      <!-- left menu start here  -->
+
+      <div
+        class="w-16 primaryMenu bg-indigo-900 flex flex-col justify-between items-center"
+      >
+        <div class="iconsUpper flex flex-col space-y-4 p-4">
+          <div
+            class="logo h-8 w-8 rounded-md bg-indigo-800 flex justify-center items-center text-white"
+          >
+            <i class="fas fa-dharmachakra"></i>
+          </div>
+          <div
+            class="logo h-8 w-8 rounded-md bg-indigo-800 flex justify-center items-center"
+          >
+            <i class="fas fa-home"></i>
+          </div>
+          <div
+            class="logo h-8 w-8 rounded-md bg-indigo-800 flex justify-center items-center"
+          >
+            <i class="far fa-chart-bar"></i>
+          </div>
+          <div
+            class="logo h-8 w-8 rounded-md bg-indigo-800 flex justify-center items-center"
+          >
+            <i class="fas fa-user-friends"></i>
+          </div>
+          <div
+            class="logo h-8 w-8 rounded-md bg-indigo-800 flex justify-center items-center"
+          >
+            <i class="far fa-calendar-alt"></i>
+          </div>
+          <div
+            class="logo h-8 w-8 rounded-md bg-indigo-800 flex justify-center items-center"
+          >
+            <i class="fas fa-dollar-sign"></i>
+          </div>
+          <div
+            class="logo h-8 w-8 rounded-md bg-indigo-800 flex justify-center items-center"
+          >
+            <i class="far fa-comment-alt"></i>
+          </div>
+          <div
+            class="logo h-8 w-8 rounded-md bg-indigo-800 flex justify-center items-center"
+          >
+            <i class="fas fa-plus-circle"></i>
+          </div>
+        </div>
+
+        <div class="iconsLower flex flex-col space-y-4 p-4">
+          <div
+            class="logo h-8 w-8 rounded-md bg-yellow-200 flex justify-center items-center"
+          >
+            <i class="fas fa-cog"></i>
+          </div>
+          <div
+            class="logo h-8 w-8 rounded-md bg-yellow-200 flex justify-center items-center"
+          >
+            <i class="fas fa-user-circle"></i>
+          </div>
+        </div>
+      </div>
+      <!-- left first nav ends here -->
+
+      <!-- projects section -->
+      <div class="w-64 middleSection bg-gray-50">
+        <div class="projectsHead flex justify-between w-64 h-18 p-3 border-b-2">
+          <div class="projects text-2xl font-semibold space-y-4">Projects</div>
+          <div
+            class="addProjectButton h-8 w-8 rounded-md bg-gray-200 flex justify-center items-center"
+          >
+            <i class="fas fa-plus-circle text-blue-600"></i>
+          </div>
+        </div>
+
+        <div class="categories">
+          <!-- all projects -->
+          <div
+            class="projectTotal flex justify-between w-64 h-18 pr-3 pl-3 pt-2"
+          >
+            <div class="allProjects">All Projects</div>
+            <div class="numbers">24</div>
+          </div>
+
+          <!-- assigned to me  -->
+          <div
+            class="projectTome flex justify-between w-64 h-18 pr-3 pl-3 pt-2"
+          >
+            <div class="assignedTome">Assigned To Me</div>
+            <div class="assignedNumbers">8</div>
+          </div>
+
+          <!-- Created By Me -->
+          <div
+            class="projectTome flex justify-between w-64 h-18 pr-3 pl-3 pt-2"
+          >
+            <div class="createdByme">Created By Me</div>
+            <div class="assignedNumbers">4</div>
+          </div>
+
+          <!-- Archived -->
+
+          <div
+            class="projectTome flex justify-between w-32 h-18 pr-3 pl-3 pt-2"
+          >
+            <div class="Archived">Archived</div>
+          </div>
+        </div>
+
+        <div
+          class="financeDashboard ml-2 border-t-2 mt-2 flex justify-between pl-2 pr-8 pt-2"
+        >
+          <div class="one flex justify-between w-44">
+            <div
+              class="emojie w-6 h-6 flex items-center justify-center bg-yellow-400 rounded-lg"
+            >
+              <i class="far fa-laugh-beam text-yellow-900"></i>
+            </div>
+            <div class="textEmoji">Finance Dashboard</div>
+          </div>
+
+          <div class="two">
+            <i class="fas fa-chevron-right"></i>
+          </div>
+        </div>
+
+        <div
+          class="courseMockups w-11/12 h-1/3 rounded-lg mt-3 ml-3 bg-gray-300"
+        >
+          <!-- course mockups -->
+
+          <div
+            class="upperMockupDivs h-12 flex items-center justify-between w-56 pr-3 pl-3"
+          >
+            <div
+              class="town flex flex-row items-center justify-center space-x-3"
+            >
+              <!-- icon -->
+              <div
+                class="blueBg w-6 h-6 bg-blue-200 rounded-lg flex items-center justify-center s"
+              >
+                <i
+                  class="fas fa-arrows-alt-h bg-blue-600 rounded-full text-white text-sm"
+                ></i>
+              </div>
+
+              <!--heading  -->
+              <div class="heading">Course Mockups</div>
+            </div>
+
+            <!-- icon -->
+            <i class="fas fa-chevron-down"></i>
+          </div>
+
+          <!-- course home -->
+          <div
+            class="upperMockupDivs h-8 flex items-center justify-between w-56 pr-3 pl-3 bg-gray-100 rounded-lg ml-1.5"
+          >
+            <!--heading  -->
+            <div class="heading">#Course Home</div>
+
+            <!-- number Heading -->
+            <div class="number">12</div>
+          </div>
+          <!-- course home end -->
+
+          <!-- course page -->
+
+          <div
+            class="upperMockupDivs h-8 flex items-center justify-between w-56 pr-3 pl-3 bg-gray-100 rounded-lg mt-2 ml-1.5"
+          >
+            <!--heading  -->
+            <div class="heading">#Course Page</div>
+
+            <!-- number Heading -->
+            <div class="number">8</div>
+          </div>
+
+          <!-- course page ends  -->
+
+          <!-- lesson view -->
+
+          <div
+            class="upperMockupDivs h-8 flex items-center justify-between w-56 pr-3 pl-3 bg-gray-100 rounded-lg mt-2 ml-1.5"
+          >
+            <!--heading  -->
+            <div class="heading">#Lesson View</div>
+
+            <!-- number Heading -->
+            <div class="number">4</div>
+          </div>
+
+          <!-- lesson view ends  -->
+
+          <!-- completed cards -->
+
+          <div
+            class="upperMockupDivs h-8 flex items-center justify-between w-56 pr-3 pl-3 bg-gray-100 rounded-lg mt-2 ml-1.5"
+          >
+            <!--heading  -->
+            <div class="heading">
+              <i class="far fa-check-circle"></i>&nbsp; Completed Cards
+            </div>
+
+            <!-- number Heading -->
+            <div class="number">4</div>
+          </div>
+
+          <!-- completed cards ends  -->
+        </div>
+
+        <div class="socialLinks w-64">
+          <!-- dribble -->
+          <div
+            class="financeDashboard ml-2 mt-2 flex justify-between pl-2 pr-8 pt-2"
+          >
+            <div class="one flex justify-between w-44">
+              <div
+                class="emojie w-6 h-6 flex items-center justify-center bg-pink-600 rounded-lg"
+              >
+                <i class="fas fa-basketball-ball text-pink-900"></i>
+              </div>
+              <div class="textEmoji text-sm">Social media Graphics</div>
+            </div>
+
+            <div class="two">
+              <i class="fas fa-chevron-right"></i>
+            </div>
+          </div>
+          <!-- dribble ends -->
+
+          <!-- twitch  -->
+          <div
+            class="financeDashboard ml-2 mt-2 flex justify-between pl-2 pr-8 pt-2"
+          >
+            <div class="one flex justify-between w-44">
+              <div
+                class="emojie w-6 h-6 flex items-center justify-center bg-purple-600 rounded-lg"
+              >
+                <i class="fab fa-twitch text-purple-900"></i>
+              </div>
+              <div class="textEmoji">Video Templates &nbsp; &nbsp;</div>
+            </div>
+
+            <div class="two">
+              <i class="fas fa-chevron-right"></i>
+            </div>
+          </div>
+          <!-- twitch ends -->
+
+          <!-- envato -->
+          <div
+            class="financeDashboard ml-2 mt-2 flex justify-between pl-2 pr-8 pt-2"
+          >
+            <div class="one flex justify-between w-44">
+              <div
+                class="emojie w-6 h-6 flex items-center justify-center bg-green-600 rounded-lg"
+              >
+                <i class="fas fa-leaf text-green-900"></i>
+              </div>
+              <div class="textEmoji">
+                Stream Layout &nbsp; &nbsp; &nbsp; &nbsp;
+              </div>
+            </div>
+
+            <div class="two">
+              <i class="fas fa-chevron-right"></i>
+            </div>
+          </div>
+          <!-- envato ends -->
+        </div>
+      </div>
+
+      <!-- Centeral Section start here #############################################-->
+      <div class="flex-auto chatSection bg-gray-100">
+          <!-- nav bar centeral section start -->
+          <div
+            class="projectsHead flex justify-between w-full py-3 px-8 h-18 p-3 border-b-2 mx-1"
+          >
+            <div
+              class="h-8 w-80 -mx-14 rounded-md flex justify-center items-center bg-white-900"
+            >
+              Project &nbsp;
+              <i class="fas fa-chevron-right"></i>
+                &nbsp; Course Mockups
+            </div>
+            <div
+              class="h-8 w-8 rounded-md flex justify-center items-center"
+            >
+            <i class="fas fa-search -mr-8"></i>
+            </div>
+          </div>
+
+          <div class="filterSection h-16 width-44 bg-gray-100 p-2 mb-4">
+
+
+
+
+                 <!-- mockup header start here
+                           -->
+                          <div class="CourseMockupsHeader h-16 w-full flex flex-row justify-between ">
+                            <div class="divLeft">
+
+                              <div class="divIconnText flex flex-row ">
+                                <div
+                            class="upperMockupDivs h-12 w-full flex items-center justify-between  p-3 pl-3"
+                          >
+                            <div
+                              class="town flex flex-row items-center justify-center "
+                            >
+                              <!-- icon -->
+                              <div
+                                class="blueBg w-10  h-8 ml-6  mr-1 mt-1 bg-blue-200 rounded-lg flex items-center justify-center "
+                              >
+                                <i
+                                  class="fas fa-arrows-alt-h bg-blue-600 rounded-full text-white text-sm"
+                                ></i>
+                              </div>
+
+                              <!--heading  -->
+                              <div class="heading text-lg w-full " >Course Mockups</div>
+
+                            </div>
+                          </div>
+                </div>
+                              <div class="divImages flex h-8 w-full">
+
+                              </div>
+
+                            </div>
+
+                            <div class="divRight flex items-center justify-center">
+                              <div class="filter text-sm h-8 w-18  rounded-lg border-b-2 border-t-2 border-l-2 border-r-2 flex items-center justify-between "><i class="fas fa-filter p-1"></i><div class="filter p-1 text-sm">Filter</div></div>
+
+                              <div class="state h-8 w-8 bg-gray-200 rounded-lg m-2 flex items-center justify-center text-sm" > <i class="far fa-chart-bar "></i></div>
+                              <div class="sort h-8 w-8  text-sm flex items-center justify-center"><i class="fas fa-bars"></i></div>
+                            </div>
+
+                          </div>
+
+
+
+
+
+
+          </div>
+
+
+
+
+
+
+
+
+          <!-- nav bar centeral section end here -->
+          <!--center section main content course mockups background  -->
+
+          <div class=" flex justify-center h-auto">
+
+            <div class="w-11/12  h-auto  flex justify-between">
+
+
+            <div class="flex-col   h-auto w-1/4  pb-1">
+           <!-- ^yellow Section Sart in this div ^-->
+           <div class="flex justify-between border-gray-500 border-b-4 mb-2 ">
+
+            <div class="todoTask pb-1"><strong>To Do Task</strong>  3</div>
+            <div class="icons"><i class="fas fa-ellipsis-h"></i> <i class="fas fa-plus-circle"></i></i></div>
+
+          </div>
+
+          <!-- coments sections start -->
+          <div class=" p-2 text-sm mt-2 h-28 rounded-lg bg-white w-auto mb-2 ">
+            <div class="bg-gray-200 w-28 p-0.5 rounded-md ml-2">#Course home</div>
+            <div class=" mt-2 mb-2 ml-2">Course Home layout</div>
+            <div class="borderline border-gray-100 border-b-2 mt-3"></div>
+            <div class="lastLineIConsImages flex justify-between mt-2 mx-1">
+              <div class="icons">
+                <i class="far fa-comment-alt ml-2"> 10</i>
+                <i class="fas fa-paperclip ml-1">&nbsp; 2</i>
+              </div>
+              <div class="image">
+                <!-- copy image -->
+            <div class="flex flex-wrap h-6 justify-start w-8">
+              <div class="">
+                <img
+                  src="https://demos.creative-tim.com/tailwindcss-starter-project/_next/static/images/team-4-470x470-4ef82ef45a9598d24c4c951ead4d626a.png"
+                  alt="..."
+                  class="shadow-lg rounded-full max-w-full h-6 align-middle border-none"
+                />
+              </div>
+            </div>
+            <!-- copy image end -->
+              </div>
+            </div>
+          </div>
+          <!-- coments sections end -->
+
+            <!-- coments sections start down div -->
+            <div class=" p-2 text-sm mt-2 h-28 rounded-lg bg-white w-auto mb-2 ">
+              <div class="bg-gray-200 w-28 p-0.5 rounded-md ml-2">#Lesson View</div>
+              <div class=" mt-2 mb-2 ml-2">Lessons in List View</div>
+              <div class="borderline border-gray-100 border-b-2 mt-3"></div>
+              <div class="lastLineIConsImages flex justify-between mt-1 mx-1">
+                <div class="icons">
+                  <i class="far fa-comment-alt ml-2"> 2</i>
+                  <i class="fas fa-paperclip ml-1">&nbsp; 5</i>
+                </div>
+                <div class="image">
+                  <!-- copy image -->
+              <div class="flex flex-wrap h-6 justify-start w-8">
+                <div class="">
+                  <img
+                    src="https://demos.creative-tim.com/tailwindcss-starter-project/_next/static/images/team-4-470x470-4ef82ef45a9598d24c4c951ead4d626a.png"
+                    alt="..."
+                    class="shadow-lg rounded-full max-w-full h-6 align-middle border-none"
+                  />
+                </div>
+              </div>
+              <!-- copy image end -->
+                </div>
+              </div>
+            </div>
+            <!-- ^coments sections end -->
+          
+          
+            <!-- coments sections start down div -->
+            <div class=" p-2 text-sm mt-2 h-28 rounded-lg bg-white w-auto mb-2 ">
+              <div class="bg-gray-200 w-28 p-0.5 rounded-md ml-2">#Course Page</div>
+              <div class=" mt-2 mb-2 ml-2">Course Page designs with Ratings</div>
+              <div class="borderline border-gray-100 border-b-2 mt-3"></div>
+                <div class="lastLineIConsImages flex justify-between mt-1 mx-1">
+                  <div class="icons">
+                    <i class="far fa-comment-alt ml-2"> 8</i>
+                    <!-- <i class="fas fa-paperclip ml-1">&nbsp; 2</i> -->
+                  </div>
+                  <div class="image">
+                    <!-- copy image -->
+                <div class="flex flex-wrap h-6 justify-start w-8">
+                  <div class="">
+                    <img
+                      src="https://demos.creative-tim.com/tailwindcss-starter-project/_next/static/images/team-4-470x470-4ef82ef45a9598d24c4c951ead4d626a.png"
+                      alt="..."
+                      class="shadow-lg rounded-full max-w-full h-6 align-middle border-none"
+                    />
+                  </div>
+                </div>
+                <!-- copy image end -->
+                  </div>
+                </div>
+              </div>
+              <!-- ^coments sections end -->
+            </div>
+           <!-- ^yellow Section end in this div ^-->
+           <div class="flex-col  h-auto w-1/4  pb-1">
+            <!-- ^yellow 2 Section Sart in this div ^-->
+            <div class="flex justify-between border-pink-400 border-b-4 mb-2 ">
+
+              <div class="todoTask pb-1"><strong>Feedback</strong>  3</div>
+              <div class="icons"><i class="fas fa-ellipsis-h"></i> <i class="fas fa-plus-circle"></i></i></div>
+
+            </div>
+            <!-- coments 1 sections start down div -->
+            <div class=" p-2 text-sm mt-2 h-28 rounded-lg bg-white w-auto mb-2 ">
+              <div class="bg-gray-200 w-28 p-0.5 rounded-md ml-2">#Course Page</div>
+              <div class=" mt-2 mb-2 ml-2">Course Home layout</div>
+              <div class="borderline border-gray-100 border-b-2 mt-3"></div>
+              <div class="lastLineIConsImages flex justify-between mt-1 mx-1">
+                <div class="icons">
+                  <i class="far fa-comment-alt ml-2"> 10</i>
+                  <i class="fas fa-paperclip ml-1">&nbsp; 2</i>
+                </div>
+                <div class="image">
+                  <!-- copy image -->
+              <div class="flex flex-wrap h-6 justify-start w-8">
+                <div class="">
+                  <img
+                    src="https://demos.creative-tim.com/tailwindcss-starter-project/_next/static/images/team-4-470x470-4ef82ef45a9598d24c4c951ead4d626a.png"
+                    alt="..."
+                    class="shadow-lg rounded-full max-w-full h-6 align-middle border-none"
+                  />
+                </div>
+              </div>
+              <!-- copy image end -->
+                </div>
+              </div>
+            </div>
+            <!-- ^coments 1 sections end -->
+              <!-- coments 2 sections start down div -->
+              <div class=" p-2 text-sm mt-2 h-32 rounded-lg bg-white w-auto mb-2 ">
+                <div class="bg-gray-200 w-28 p-0.5 rounded-md ml-2">#Course Page</div>
+                <div class=" mt-2 mb-2 ml-2">Course Home layout for both Grid & List Style Views</div>
+                <div class="borderline border-gray-100 border-b-2 mt-3"></div>
+                <div class="lastLineIConsImages flex justify-between mt-1 mx-1">
+                  <div class="icons">
+                    <i class="far fa-comment-alt ml-2"> 14</i>
+                    <i class="fas fa-paperclip ml-1">&nbsp; 6</i>
+                  </div>
+                  <div class="image">
+                    <!-- copy image -->
+                <div class="flex flex-wrap h-6 justify-start w-8">
+                  <div class="">
+                    <img
+                      src="https://demos.creative-tim.com/tailwindcss-starter-project/_next/static/images/team-4-470x470-4ef82ef45a9598d24c4c951ead4d626a.png"
+                      alt="..."
+                      class="shadow-lg rounded-full max-w-full h-6 align-middle border-none"
+                    />
+                  </div>
+                </div>
+                <!-- copy image end -->
+                  </div>
+                </div>
+              </div>
+              <!-- ^coments 2 sections end -->
+                <!-- coments 3 sections start down div -->
+                <div class=" p-2 text-sm mt-2 h-34 rounded-lg bg-white w-auto mb-2 ">
+                  <div class="bg-gray-200 w-28 p-0.5 rounded-md ml-2">#Lesson View</div>
+                  <div class=" mt-1 mb-2 ml-2">Lesson Page Samples For Card & List View with minimal style </div>
+                  <div class="borderline border-gray-100 border-b-2 mt-3"></div>
+              <div class="lastLineIConsImages flex justify-between mt-1 mx-1">
+                <div class="icons">
+                  <i class="far fa-comment-alt ml-2"> 10</i>
+                  <!-- <i class="fas fa-paperclip ml-1">&nbsp; 2</i> -->
+                </div>
+                <div class="image">
+                  <!-- copy image -->
+              <div class="flex flex-wrap h-6 justify-start w-8">
+                <div class="">
+                  <img
+                    src="https://demos.creative-tim.com/tailwindcss-starter-project/_next/static/images/team-4-470x470-4ef82ef45a9598d24c4c951ead4d626a.png"
+                    alt="..."
+                    class="shadow-lg rounded-full max-w-full h-6 align-middle border-none"
+                  />
+                </div>
+              </div>
+              <!-- copy image end -->
+                </div>
+              </div>
+            </div>
+            <!-- ^coments 3 sections end -->
+             </div>
+            <!-- ^yellow 2 Section end in this div ^-->
+            <div class="flex-col  h-auto w-1/4  pb-1">
+              <!-- ^yellow 3 Section Sart in this div ^-->
+              <div class="flex justify-between border-blue-600 border-b-4 mb-2 ">
+
+                <div class="todoTask pb-1"><strong>In Progress</strong>  4</div>
+                <div class="icons"><i class="fas fa-ellipsis-h"></i> <i class="fas fa-plus-circle"></i></i></div>
+
+              </div>
+              <!-- coments sections start -->
+              <div class=" p-2 text-sm mt-2 h-32 rounded-lg bg-white w-auto mb-2 ">
+                <div class="bg-gray-200 w-28 p-0.5 rounded-md ml-2">#Course Page</div>
+                <div class=" mt-2 mb-2 ml-2">Course Home layout for both Grid & List Style Views</div>
+                <div class="borderline border-gray-100 border-b-2 mt-3"></div>
+                <div class="lastLineIConsImages flex justify-between mt-1 mx-1">
+                  <div class="icons">
+                    <i class="far fa-comment-alt ml-2"> 16</i>
+                    <i class="fas fa-paperclip ml-1">&nbsp; 8</i>
+                  </div>
+                  <div class="image">
+                    <!-- copy image -->
+                <div class="flex flex-wrap h-6 justify-start w-8">
+                  <div class="">
+                    <img
+                      src="https://demos.creative-tim.com/tailwindcss-starter-project/_next/static/images/team-4-470x470-4ef82ef45a9598d24c4c951ead4d626a.png"
+                      alt="..."
+                      class="shadow-lg rounded-full max-w-full h-6 align-middle border-none"
+                    />
+                  </div>
+                </div>
+                <!-- copy image end -->
+                  </div>
+                </div>
+              </div>
+              <!-- coments sections end -->
+                <!-- coments sections start down div -->
+                <div class=" p-2 text-sm mt-2 h-28 rounded-lg bg-white w-auto mb-2 ">
+                  <div class="bg-gray-200 w-28 p-0.5 rounded-md ml-2">#Course Page</div>
+                  <div class=" mt-2 mb-2 ml-2">Course Intro Section</div>
+                  <div class="borderline border-gray-100 border-b-2 mt-3"></div>
+                  <div class="lastLineIConsImages flex justify-between mt-1 mx-1">
+                    <div class="icons">
+                      <i class="far fa-comment-alt ml-2"> 7</i>
+                      <!-- <i class="fas fa-paperclip ml-1">&nbsp; 2</i> -->
+                    </div>
+                    <div class="image">
+                      <!-- copy image -->
+                  <div class="flex flex-wrap h-6 justify-start w-8">
+                    <div class="">
+                      <img
+                        src="https://demos.creative-tim.com/tailwindcss-starter-project/_next/static/images/team-4-470x470-4ef82ef45a9598d24c4c951ead4d626a.png"
+                        alt="..."
+                        class="shadow-lg rounded-full max-w-full h-6 align-middle border-none"
+                      />
+                    </div>
+                  </div>
+                  <!-- copy image end -->
+                    </div>
+                  </div>
+                </div>
+                <!-- ^coments sections end -->
+                  <!-- coments sections start down div -->
+                  <div class=" p-2 text-sm mt-2 h-28 rounded-lg bg-white w-auto mb-2 ">
+                    <div class="bg-gray-200 w-28 p-0.5 rounded-md ml-2">#Course Page</div>
+                    <div class=" mt-2 mb-2 ml-2">Header & sidebar revision 2</div>
+                    <div class="borderline border-gray-100 border-b-2 mt-3"></div>
+                    <div class="lastLineIConsImages flex justify-between mt-1 mx-1">
+                      <div class="icons">
+                        <i class="far fa-comment-alt ml-2"> 24</i>
+                        <i class="fas fa-paperclip ml-1">&nbsp; 12</i>
+                      </div>
+                      <div class="image">
+                        <!-- copy image -->
+                    <div class="flex flex-wrap h-6 justify-start w-8">
+                      <div class="">
+                        <img
+                          src="https://demos.creative-tim.com/tailwindcss-starter-project/_next/static/images/team-4-470x470-4ef82ef45a9598d24c4c951ead4d626a.png"
+                          alt="..."
+                          class="shadow-lg rounded-full max-w-full h-6 align-middle border-none"
+                        />
+                      </div>
+                    </div>
+                    <!-- copy image end -->
+                      </div>
+                    </div>
+                  </div>
+                  <!-- ^coments sections end -->
+                  <!-- coments 4 sections start down div -->
+                  <div class=" p-2 text-sm mt-2 h-34 rounded-lg bg-white w-auto mb-2 ">
+                    <div class="bg-gray-200 w-28 p-0.5 rounded-md ml-2">#Course home</div>
+                    <div class=" mt-2 mb-2 ml-2">Course Home layout for both Grid & list style views</div>
+                    <div class="borderline border-gray-100 border-b-2 mt-3"></div>
+                <div class="lastLineIConsImages flex justify-between mt-1 mx-1">
+                  <div class="icons">
+                    <i class="far fa-comment-alt ml-2"> 18</i>
+                    <!-- <i class="fas fa-paperclip ml-1">&nbsp; 2</i> -->
+                  </div>
+                  <div class="image">
+                    <!-- copy image -->
+                <div class="flex flex-wrap h-6 justify-start w-8">
+                  <div class="">
+                    <img
+                      src="https://demos.creative-tim.com/tailwindcss-starter-project/_next/static/images/team-4-470x470-4ef82ef45a9598d24c4c951ead4d626a.png"
+                      alt="..."
+                      class="shadow-lg rounded-full max-w-full h-6 align-middle border-none"
+                    />
+                  </div>
+                </div>
+                <!-- copy image end -->
+                  </div>
+                </div>
+              </div>
+              <!-- ^coments 4 sections end -->
+               </div>
+              <!-- ^yellow 3 Section end in this div ^-->
+              <div class="flex-col  h-auto w-1/5  pb-1">
+                <!-- ^yellow 4 Section Sart in this div ^-->
+                <div class="flex justify-between border-green-600 border-b-4 mb-2 ">
+
+                  <div class="todoTask pb-1"><strong>Under Review</strong>  2</div>
+                  <div class="icons"><i class="fas fa-ellipsis-h"></i> <i class="fas fa-plus-circle"></i></i></div>
+
+                </div>
+                <!-- coments sections start -->
+                <div class=" p-2 text-sm mt-2 h-28 rounded-lg bg-white w-auto mb-2 ">
+                  <div class="bg-gray-200 w-28 p-0.5 rounded-md ml-2">#Course home</div>
+                  <div class=" mt-2 mb-2 ml-2">Header & sidebar Revision</div>
+                  <div class="borderline border-gray-100 border-b-2 mt-3"></div>
+                  <div class="lastLineIConsImages flex justify-between mt-1 mx-1">
+                    <div class="icons">
+                      <i class="far fa-comment-alt ml-2"> 9</i>
+                      <!-- <i class="fas fa-paperclip ml-1">&nbsp; 2</i> -->
+                    </div>
+                    <div class="image">
+                      <!-- copy image -->
+                  <div class="flex flex-wrap h-6 justify-start w-8">
+                    <div class="">
+                      <img
+                        src="https://demos.creative-tim.com/tailwindcss-starter-project/_next/static/images/team-4-470x470-4ef82ef45a9598d24c4c951ead4d626a.png"
+                        alt="..."
+                        class="shadow-lg rounded-full max-w-full h-6 align-middle border-none"
+                      />
+                    </div>
+                  </div>
+                  <!-- copy image end -->
+                    </div>
+                  </div>
+                </div>
+                <!-- coments sections end -->
+                <div class=" p-2 text-sm mt-2 h-34 rounded-lg bg-white w-auto mb-2 ">
+                  <div class="bg-gray-200 w-28 p-0.5 rounded-md ml-2">#Lesson View</div>
+                  <div class=" mt-2 mb-2 ml-2">Lesson Page Samples For Card & List View With minimal style</div>
+                  <div class="borderline border-gray-100 border-b-2 mt-3"></div>
+                    <div class="lastLineIConsImages flex justify-between mt-1 mx-1">
+                      <div class="icons">
+                        <i class="far fa-comment-alt ml-2"> 6</i>
+                        <i class="fas fa-paperclip ml-1">&nbsp; 1</i>
+                      </div>
+                      <div class="image">
+                        <!-- copy image -->
+                    <div class="flex flex-wrap h-6 justify-start w-8">
+                      <div class="">
+                        <img
+                          src="https://demos.creative-tim.com/tailwindcss-starter-project/_next/static/images/team-4-470x470-4ef82ef45a9598d24c4c951ead4d626a.png"
+                          alt="..."
+                          class="shadow-lg rounded-full max-w-full h-6 align-middle border-none"
+                        />
+                      </div>
+                    </div>
+                    <!-- copy image end -->
+                      </div>
+                    </div>
+                  </div>
+                  <!-- ^coments sections end -->
+
+                 </div>
+                <!-- ^yellow 4 Section end in this div ^-->
+            </div>
+           <!-- ^green Section end in this div ^-->
+          </div>
+          <!-- ^red Section end in this div^ -->
+      </div>
+         <!-- MY ADITION  HERE..................> -->
+
+    
+      <div class=" w-72 middleSection">
+        <!-- first line icons start -->
+        <div
+          class="projectsHead flex justify-between w-72 py-3 px-8 h-18 p-3 border-b-2"
+        >
+          <div
+            class="h-8 w-8 rounded-md flex justify-center items-center bg-white-900"
+          >
+            <i class="far fa-comment-alt"></i>
+          </div>
+          <div
+            class="h-8 w-8 rounded-md flex justify-center items-center bg-white-900"
+          >
+            <i class="far fa-clock"></i>
+          </div>
+          <div
+            class="h-8 w-8 rounded-md flex justify-center items-center bg-white-900"
+          >
+            <i class="fas fa-download"></i>
+          </div>
+          <div
+            class="h-8 w-8 rounded-md flex justify-center items-center bg-white-900"
+          >
+            <i class="fas fa-cog"></i>
+          </div>
+          <!-- first line icons end -->
+        </div>
+        <!-- chat text section start -->
+        <div class="chat-text-section">
+          <!-- first chat and image start -->
+          <div
+            class="projectTotal flex justify-between w-72 px-6 h-18 pr-3 pl-3 pt-2"
+          >
+            <!-- image section and chat start -->
+            <div class="allProjects">
+              <!-- copy image -->
+              <div class="flex flex-wrap justify-start w-10">
+                <div class="">
+                  <img
+                    src="https://demos.creative-tim.com/tailwindcss-starter-project/_next/static/images/team-4-470x470-4ef82ef45a9598d24c4c951ead4d626a.png"
+                    alt="..."
+                    class="shadow-lg rounded-full max-w-full h-10 align-middle border-none"
+                  />
+                </div>
+              </div>
+              <!-- copy image end -->
+            </div>
+            <!-- image text start -->
+            <div class="text-sm w-11/12 mx-2 bg-gray-100 rounded py-1 px-2">
+              <h3><strong>Zohaib</strong> 9:30 PM</h3>
+              Lorem ipsum dolor sit amet conse adipisicing elit. Quaeut
+            </div>
+            <!-- image text end -->
+          </div>
+          <!-- first chat and image end -->
+          <!-- second chat and image start -->
+          <div
+            class="projectTotal flex justify-between w-72 px-6 h-18 pr-3 pl-3 pt-2"
+          >
+            <!-- image section and chat start -->
+            <div class="allProjects">
+              <!-- copy image -->
+              <div class="flex flex-wrap justify-start w-10">
+                <div class="">
+                  <img
+                    src="https://demos.creative-tim.com/tailwindcss-starter-project/_next/static/images/team-4-470x470-4ef82ef45a9598d24c4c951ead4d626a.png"
+                    alt="..."
+                    class="shadow-lg rounded-full max-w-full h-10 align-middle border-none"
+                  />
+                </div>
+              </div>
+              <!-- copy image end -->
+            </div>
+            <!-- image text start -->
+            <div class="text-sm w-11/12 mx-2 bg-gray-100 rounded py-1 px-2">
+              <h3><strong>Zohaib</strong> 9:30 PM</h3>
+              Lorem ipsum dolor sit amet conse adipis
+            </div>
+            <!-- image text end -->
+          </div>
+          <!-- second chat and image end -->
+          <!-- third chat and image start -->
+          <div
+            class="projectTotal flex justify-between w-72 px-6 h-18 pr-3 pl-3 pt-2"
+          >
+            <!-- image section and chat start -->
+            <div class="allProjects">
+              <!-- copy image -->
+              <div class="flex flex-wrap justify-start w-10">
+                <div class="">
+                  <img
+                    src="https://demos.creative-tim.com/tailwindcss-starter-project/_next/static/images/team-4-470x470-4ef82ef45a9598d24c4c951ead4d626a.png"
+                    alt="..."
+                    class="shadow-lg rounded-full max-w-full h-10 align-middle border-none"
+                  />
+                </div>
+              </div>
+              <!-- copy image end -->
+            </div>
+            <!-- image text start -->
+            <div class="text-sm w-11/12 mx-2 bg-gray-100 rounded py-1 px-2">
+              <h3><strong>Zohaib</strong> 9:30 PM</h3>
+              Lorem ipsum dolor sit
+            </div>
+            <!-- image text end -->
+          </div>
+          <!-- third chat and image end -->
+           <!-- fourth chat start -->
+          <div
+          class="projectTotal flex justify-between w-72 px-6 h-18 pr-3 pl-3 pt-2"
+        >
+          <!-- no image section only chat start -->
+          <!-- image text start -->
+          <div class="text-sm w-11/12 mx-2 bg-blue-500 text-gray-50 rounded py-1 px-2 ml-12">
+
+            Lorem ipsum dolor sit amet conse adipisicing elit. Quaeut
+
+          </div>
+          <!-- image text end -->
+        </div>
+        <!-- fourth chat end -->
+         <!-- fifth chat and image start -->
+         <div
+         class="projectTotal flex justify-between w-72 px-6 h-18 pr-3 pl-3 pt-2"
+       >
+         <!-- image section and chat start -->
+         <div class="allProjects">
+           <!-- copy image -->
+           <div class="flex flex-wrap justify-start w-10">
+             <div class="">
+               <img
+                 src="https://demos.creative-tim.com/tailwindcss-starter-project/_next/static/images/team-4-470x470-4ef82ef45a9598d24c4c951ead4d626a.png"
+                 alt="..."
+                 class="shadow-lg rounded-full max-w-full h-10 align-middle border-none"
+               />
+             </div>
+           </div>
+           <!-- copy image end -->
+         </div>
+         <!-- image text start -->
+         <div class="text-sm w-11/12 mx-2 bg-gray-100 rounded py-1 px-2">
+           <h3><strong>Zohaib</strong> 9:30 PM</h3>
+           Lorem ipsum dolor sit amet conse adipisicing elit. Quaeut
+         </div>
+         <!-- image text end -->
+       </div>
+       <!-- fifth chat and image end -->
+       <!-- sixth chat and image start -->
+       <div
+         class="projectTotal flex justify-between w-72 px-6 h-18 pr-3 pl-3 pt-2"
+       >
+         <!-- image section and chat start -->
+         <div class="allProjects">
+           <!-- copy image -->
+           <div class="flex flex-wrap justify-start w-10">
+             <div class="">
+               <img
+                 src="https://demos.creative-tim.com/tailwindcss-starter-project/_next/static/images/team-4-470x470-4ef82ef45a9598d24c4c951ead4d626a.png"
+                 alt="..."
+                 class="shadow-lg rounded-full max-w-full h-10 align-middle border-none"
+               />
+             </div>
+           </div>
+           <!-- copy image end -->
+         </div>
+         <!-- image text start -->
+         <div class="text-sm w-11/12 mx-2 bg-gray-100 rounded py-1 px-2">
+           <h3><strong>Zohaib</strong> 9:30 PM</h3>
+           Lorem ipsum dolor sit amet conse adipis
+         </div>
+         <!-- image text end -->
+       </div>
+       <!-- eight chat start -->
+       <div
+       class="projectTotal flex justify-between w-72 px-6 h-18 pr-3 pl-3 pt-2"
+     >
+       <!-- no image section only chat start -->
+       <!-- image text start -->
+       <div class="text-sm w-11/12 mx-2 bg-blue-500 text-gray-50 rounded py-1 px-2 ml-12">
+
+         Lorem ipsum dolor sit amet conse adipisicing elit. Quaeut
+
+       </div>
+
+
+
+
+
+       <!-- image text end -->
+
+
+     </div>
+
+
+            <div class="msgPlace flex flex-row  justify-between border-t-2  p-4 mt-2">
+            <div class="enterText">Enter Your Message</div>
+            <div class="emojie w-8 h-8 bg-gray-200 rounded-lg flex items-center justify-center "> <i class="far fa-smile"></i></div>
+          </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!--main wrapper ends here-->
+  </body>
+</html>
